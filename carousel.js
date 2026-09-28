@@ -82,7 +82,7 @@
       });
       if (nearest !== index) {
         index = nearest;
-        fill(index - 1); fill(index + 1);
+        fill(index - 1); fill(index); fill(index + 1);
         currentLabel.textContent = String(index + 1);
       }
     }, 90);
