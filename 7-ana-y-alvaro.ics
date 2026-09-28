@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ana y Alvaro//Nuestra boda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:boda-ana-alvaro-20261017@ana-alvaro.local
+DTSTAMP:20260924T181000Z
+SEQUENCE:1
+DTSTART:20261017T150000Z
+DTEND:20261018T020000Z
+SUMMARY:Boda de Ana y Alvaro
+LOCATION:Finca El Cabildo\, La Adrada\, Ávila
+DESCRIPTION:Bienvenida a las 17:00. Ceremonia a las 17:30. Convite a las 18
+ :30\, cena a las 22:30 y fiesta a las 23:00. Autobús de vuelta a La Adrad
+ a a las 04:00 del domingo 18. Horarios aproximados (hora de La Adrada).
+URL:https://www.google.com/maps/search/?api=1&query=Finca+El+Cabildo%2C+La+
+ Adrada%2C+Avila
+END:VEVENT
+END:VCALENDAR
