@@ -4,11 +4,16 @@
   'use strict';
 
   var FOTOS = [
-    '01.jpg', '02.jpg', '03.jpg', '04.jpg', '05.jpg', '06.jpg', '07.jpg',
-    '08.jpg', '09.jpg', '10.jpg', '11.jpg', '12.jpg', '13.jpg', '14.jpg',
-    '15.jpg', '16.jpg', '17.jpg', '18.jpg', '19.jpg', '20.jpg', '21.jpg',
-    '22.jpg', '23.jpg', '24.jpg', '25.jpg', '26.jpg', '27.jpg', '28.jpg',
-    '29.jpg'
+    '20-01.jpg', '21-02.jpg', '22-03.jpg', '23-04.jpg', '24-05.jpg', '25-06.jpg',
+    '26-07.jpg', '27-08.jpg', '28-09.jpg', '29-10.jpg', '30-11.jpg', '31-12.jpg',
+    '32-13.jpg', '33-14.jpg', '34-15.jpg', '35-16.jpg', '36-17.jpg', '37-18.jpg',
+    '38-19.jpg', '39-20.jpg', '40-21.jpg', '41-22.jpg', '42-23.jpg', '43-24.jpg',
+    '44-25.jpg', '45-26.jpg', '46-27.jpg', '47-28.jpg', '48-29.jpg', '33-30.jpg',
+    '34-31.jpg', '35-32.jpg', '36-33.jpg', '37-34.jpg', '38-35.jpg', '39-36.jpg',
+    '40-37.jpg', '41-38.jpg', '42-39.jpg', '43-40.jpg', '44-41.jpg', '45-42.jpg',
+    '46-43.jpg', '47-44.jpg', '48-45.jpg', '49-46.jpg', '50-47.jpg', '51-48.jpg',
+    '52-49.jpg', '53-50.jpg', '54-51.jpg', '55-52.jpg', '56-53.jpg', '57-54.jpg',
+    '58-55.jpg', '59-56.jpg', '60-57.jpg', '61-58.jpg', '62-59.jpg', '63-60.jpg'
   ];
 
   var root = document.querySelector('[data-carousel]');
@@ -38,7 +43,7 @@
   function fill(i) {
     if (i < 0 || i >= total || slides[i].dataset.loaded) return;
     var img = document.createElement('img');
-    img.src = 'fotos/' + (i + 20) + '-' + FOTOS[i];
+    img.src = 'fotos/' + FOTOS[i];
     img.alt = 'Ana y Alvaro, foto ' + (i + 1) + ' de ' + total;
     img.loading = i === 0 ? 'eager' : 'lazy';
     img.decoding = 'async';
